@@ -17,6 +17,7 @@
 		63495F532B7CF61200D69BFA /* RandomColorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495F522B7CF61200D69BFA /* RandomColorsUITestsLaunchTests.swift */; };
 		63495F602B7CF72E00D69BFA /* ColorsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495F5F2B7CF72E00D69BFA /* ColorsTableVC.swift */; };
 		63495F622B7CFAB300D69BFA /* ColorsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495F612B7CFAB300D69BFA /* ColorsDetailVC.swift */; };
+		63495F642B7D2CB600D69BFA /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63495F632B7D2CB600D69BFA /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		63495F522B7CF61200D69BFA /* RandomColorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63495F5F2B7CF72E00D69BFA /* ColorsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableVC.swift; sourceTree = "<group>"; };
 		63495F612B7CFAB300D69BFA /* ColorsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsDetailVC.swift; sourceTree = "<group>"; };
+		63495F632B7D2CB600D69BFA /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				63495F2F2B7CF61100D69BFA /* AppDelegate.swift */,
 				63495F312B7CF61100D69BFA /* SceneDelegate.swift */,
 				63495F5F2B7CF72E00D69BFA /* ColorsTableVC.swift */,
+				63495F632B7D2CB600D69BFA /* UIColor+Ext.swift */,
 				63495F612B7CFAB300D69BFA /* ColorsDetailVC.swift */,
 				63495F352B7CF61100D69BFA /* Main.storyboard */,
 				63495F382B7CF61200D69BFA /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			files = (
 				63495F302B7CF61100D69BFA /* AppDelegate.swift in Sources */,
 				63495F622B7CFAB300D69BFA /* ColorsDetailVC.swift in Sources */,
+				63495F642B7D2CB600D69BFA /* UIColor+Ext.swift in Sources */,
 				63495F602B7CF72E00D69BFA /* ColorsTableVC.swift in Sources */,
 				63495F322B7CF61100D69BFA /* SceneDelegate.swift in Sources */,
 			);

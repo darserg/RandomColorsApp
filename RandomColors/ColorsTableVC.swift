@@ -19,16 +19,13 @@ class ColorsTableVC: UIViewController  {
     
     func createRandomColors() {
         for _ in 0..<50 {
-            colors.append(randomColor())
+            colors.append(.random())
         }
     }
     
-    func randomColor() -> UIColor {
-        let randomColor = UIColor(red: CGFloat.random(in: 0...1),
-                                  green: CGFloat.random(in: 0...1),
-                                  blue: CGFloat.random(in: 0...1),
-                                  alpha: 1)
-        return randomColor
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destVC = segue.destination as! ColorsDetailVC
+        destVC.color = sender as? UIColor
     }
 }
 
@@ -48,6 +45,7 @@ extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "ToColorsDetailVC", sender: nil)
+        let color = colors[indexPath.row]
+        performSegue(withIdentifier: "ToColorsDetailVC", sender: color)
     }
 }
